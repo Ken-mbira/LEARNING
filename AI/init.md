@@ -5,20 +5,11 @@ What is compression? -> Representing information in a smaller manner, without lo
 Compression and prediction come close to each other too.
 
 Prediction is a pretty clear sign of intelligence.
-For example, a sequence of numbers:
-```
-2222
-```
+For example, a sequence of numbers: ```2222```
 
-Can be represented as:
-```
-4*2
-```
+Can be represented as: ```4*2```
 
-Option 2 is compressed, and if I wanted to predict the next number in the sequence, given the compressed version, I have:
-```
-5*2
-```
+Option 2 is compressed, and if I wanted to predict the next number in the sequence, given the compressed version, I have: ```5*2```
 
 Thing is though, I have to know how to de-compress the compressed version. If I were to write a program in python to do it, it would look something like:
 ```python
